@@ -103,7 +103,7 @@ struct Block {
 };
 
 /// <summary>
-/// A convenience wrapper around a possibly-null MWEB transcation.
+/// A convenience wrapper around a possibly-null MWEB transaction.
 /// </summary>
 struct Tx {
     mw::Transaction::CPtr m_transaction;
